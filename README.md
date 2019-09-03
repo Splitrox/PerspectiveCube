@@ -8,5 +8,5 @@
  * Don't remove this disclaimer;
 
 ```
-I also made it available in a ja file if you want to try it-
+I also made it available in a ja file if you want to try it
 ```
