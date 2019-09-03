@@ -4,5 +4,9 @@
  
  You are welcome to use it, modify it and redistribute it under the following conditions:
  
- * Don't claim this class as your own
- * Don't remove this disclaimer
+ * Don't claim this class as your own,
+ * Don't remove this disclaimer;
+
+```
+I also made it available in a ja file if you want to try it-
+```
