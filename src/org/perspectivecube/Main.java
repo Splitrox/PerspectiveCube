@@ -94,7 +94,7 @@ public class Main extends Canvas implements Runnable {
 		new Thread(this).start();
 	}
 
-	public void tick() {
+	private void tick() {
 		character.force.add(KeyboardController.keyBoard.clone()
 				.mul(0.2 * (FRAME_RATES / 120) + ((FRAME_RATES / 120) - 1) * 0.6));
 		character.run();
@@ -165,7 +165,7 @@ public class Main extends Canvas implements Runnable {
 		return instance;
 	}
 
-	public int getRefreshRate() {
+	private int getRefreshRate() {
 		return GraphicsEnvironment.getLocalGraphicsEnvironment().getScreenDevices()[0].getDisplayMode()
 				.getRefreshRate();
 	}
